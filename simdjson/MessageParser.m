@@ -25,12 +25,12 @@ NSArray* parse(NSData* msg, int level, int levelmax) {
 }
 
 
-+ (NSArray*) parseMessage:(NSData*)msg
++ (NSArray*) Message:(NSData*)msg
 {
-    return parse(msg, 0, 3);
+    return (msg, 0, 3);
 }
 
-+ (void) prettyPrint:(NSArray*)msg
++  prettyPrint:(NSArray*)msg
 {
     
     
